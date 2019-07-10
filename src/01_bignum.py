@@ -8,3 +8,4 @@ while exponent < 16+1:
     res = n ** exponent
     exponent = exponent + 1
     print(res)
+    
