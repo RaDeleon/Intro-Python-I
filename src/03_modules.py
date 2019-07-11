@@ -18,9 +18,17 @@ print("The arguments are:", str(sys.argv))
 # YOUR CODE HERE
 print('OS platform:', sys.platform)
 
+if sys.platform.startswith('linux'):
+    	print('MintOS platform:', sys.platform)
+elif sys.platform.startswith('win32'):
+	print('Windows platform:', sys.platform)
+
 # Print out the version of Python you're using:
 # YOUR CODE HERE
 print('Python version:', sys.version)
+print(os.getcwd())
+
+
 
 import os
 # See the docs for the OS module: https://docs.python.org/3.7/library/os.html
